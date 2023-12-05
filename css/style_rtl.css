@@ -1,0 +1,203 @@
+body {
+  font-family: 'Tajawal', 'Open Sans';
+}
+.main-button {
+  font-family: 'Tajawal', 'Open Sans';
+  font-size: 17px;
+}
+@media (max-width: 767px) {
+  .main-button {
+    font-family: 'Tajawal', 'Open Sans';
+    font-size: 18px;
+  }
+}
+/******************** Start Header ********************/
+/******************** Start Language ********************/
+.lang .lable {
+  font-size: 15px;
+  margin-left: 10px;
+}
+@media (max-width: 1200px) {
+  .lang {
+    left: 0 !important;
+    top: 68px !important;
+    right: 90% !important;
+  }
+}
+/******************** End Language ********************/
+/*************** Start Navbar ***************/
+/* @media only screen and (min-width: 1200px) {
+  .row.nav {
+    margin-right: 7%;
+  }
+} */
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus {
+  font-size: 20px;
+}
+@media only screen and (min-width: 1200px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-link:focus {
+    text-align: right;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-link:focus {
+    text-align: right;
+  }
+}
+@media (max-width: 992px) {
+  .collapse.show {
+    left: -50%;
+    right: 50%;
+    overflow: hidden;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+}
+.navbar-light .dropdown-menu.show {
+  margin-top: -15px;
+  margin-left: -150px;
+  padding: 22px 20px;
+  text-align: right;
+  font-size: 17px;
+  font-weight: bold;
+}
+/*************** End Navbar ***************/
+header .header-content h1 {
+  font-family: 'Tajawal', serif;
+}
+header .header-content p {
+  font-family: 'Tajawal', serif;
+}
+/******************** End Header ********************/
+/******************** Start about diseases ********************/
+.about-diseases .symptoms .single-symptoms:not(:last-child) {
+  padding-left: 35px !important;
+  margin-left: 35px !important;
+  border-right: none !important;
+  border-left: 1px solid rgba(66, 33, 33, 0.15) !important;
+}
+.about-diseases .symptoms .single-symptoms .icon {
+  margin-left: 12px !important;
+}
+@media only screen and (max-width: 575px) {
+  .about-diseases .symptoms .single-symptoms:not(:last-child) {
+    border-left: 0 !important;
+    padding-left: 0;
+    margin-left: 0;
+    /* border-bottom: 1px solid rgba(112,112,112,.15) !important; */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+/******************** End about diseases ********************/
+/******************** Start World Update ********************/
+.world-update .live-update-logo span:nth-of-type(2) {
+  padding: 5px 10px;
+  border-radius: 101px 0 0 66px;
+}
+/******************** End World Update ********************/
+/******************** Start About Symptoms ********************/
+.about-symptoms .card-wrapper .card::before {
+  right: -17%;
+  top: 50%;
+  background-color: #e8ebf3;
+  height: 5px;
+  width: 100px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.about-symptoms .card-wrapper .card::after {
+  height: 20px;
+  width: 20px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  top: 50%;
+  left: 100%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+@media only screen and (min-width: 1200px) {
+  .about-symptoms .card-wrapper .card::after,
+  .about-symptoms .card-wrapper .card::before {
+      position: absolute;
+      content: '';
+  }
+  .symptoms-wrapper .card-wrapper .card:nth-child(1):before {
+    width: 140px;
+    right: -21%;
+  }
+  .symptoms-wrapper .card-wrapper .card:nth-child(2):before {
+    width: 140px;
+    right: -32%;
+  }
+  .symptoms-wrapper .card-wrapper .card:nth-child(3):before {
+    width: 155px;
+    right: -10%;
+  }
+  .about-symptoms .card-wrapper .card .card-body {
+    position: relative;
+    z-index: 2;
+    background-color: #FFF;
+  }
+}
+/******************** End About Symptoms ********************/
+/******************** Start 24/7 Support  ********************/
+.support .contact-form-wrapper .btn-icon {
+  margin-right: 10px;
+}
+@media (max-width: 575px) {
+  .support .contact-form-wrapper .btn-icon {
+    margin: 20px 27%;
+  }
+}
+.support .contact-form-wrapper .btn-icon .icon {
+  margin-left: 5px;
+}
+/******************** End 24/7 Support  ********************/
+/******************** Start Top Countries ********************/
+@media only screen and (min-width: 1200px) {
+  .single-country .country-info li:first-child {
+    /* border-radius: 50px 0 0 50px; */
+    border-radius: 0 50px 50px 0;
+  }
+  .single-country .country-info li:last-child {
+    border-radius: 50px 0 0 50px;
+  }
+}
+/******************** End Top Countries ********************/
+/******************** Start Footer *******************/
+footer .footer-top button {
+  border-radius: 5px 0 0 5px;
+}
+.footer-main .widget.widget-social-icon li:not(:first-child) {
+  margin-right: 7px;
+  margin-bottom: 0;
+}
+.footer-main .widget.widget_nav_menu ul li:hover,
+.footer-main .widget.widget_nav_menu ul li:hover a {
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+/******************** End Footer *******************/
+/******************** Start Scroll Top *******************/
+.scroll-top:before {
+  content: 'اذهب الي الاعلي';
+  padding: 11px 4px;
+}
+/******************** End Scroll Top *******************/
