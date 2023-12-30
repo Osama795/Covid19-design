@@ -34,13 +34,6 @@ function scrollToSomWhere(elements) {
 }
 scrollToSomWhere(allLinks);
 /*```````````````````````````````````````````````````````*/
-// Trigger Nice Scroll Plugin
-$('html').niceScroll({
-  cursorcolor: 'var(--main-color)',
-  cursorwidth: '10px',
-  cursorborder: 'none',
-  cursorborderradius: 0
-});
 
 /*``````````````````````````````````````````````````````*/
 // Handel Active State
